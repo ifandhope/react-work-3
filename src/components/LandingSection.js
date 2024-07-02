@@ -4,11 +4,9 @@ import FullScreenSection from "./FullScreenSection";
 import cello2 from "../images/cello2.jpg";
 
 const greeting = "Hello, I am Helen!";
-const bio1 = "A frontend developer to be";
+const bio1 = "A frontend developer to be &";
 const bio2 = "Code lover";
 
-// Implement the UI for the LandingSection component according to the instructions.
-// Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
   <FullScreenSection
     justifyContent="center"
@@ -28,6 +26,7 @@ const LandingSection = () => (
         <Heading as="h1" size="2xl" noOfLines={1}>
           {bio1}
         </Heading>
+
         <Heading as="h1" size="2xl" noOfLines={1}>
           {bio2}
         </Heading>
