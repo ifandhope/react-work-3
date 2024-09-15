@@ -61,7 +61,7 @@ const ContactMeSection = () => {
     >
       <VStack w="100%" py={12}>
         <Heading as="h1" id="contactme-section">
-          Contact me
+          Contact me (non functional)
         </Heading>
         <Box p={6} rounded="md" w="100%">
           <form onSubmit={formik.handleSubmit}>
